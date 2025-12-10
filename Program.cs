@@ -97,7 +97,6 @@ foreach (KeyValuePair<string, int> par in newDict)
 {
     Console.WriteLine($"Chave: {par.Key}, Valor: {par.Value}");
 }
-cursos();
 
 string[] cursoRealista = new string[] { "Mecânica", "Automação", "Usinagem", "Eletricidade", "Plastico", "Costura" };
 string[] cursoInvestigativo = new string[] { "Tecnologia da Informação", "Eletroeletrônica", "Manutenção", "Plastico" };
@@ -105,6 +104,9 @@ string[] cursoArtistico = new string[] { "Design de Produto", "Impressão 3D", "
 string[] cursoSocial = new string[] { "Segurança do Trabalho", "Educação", "Saúde Ocupacional" };
 string[] cursoEmpreendedor = new string[] { "Gestão", "Vendas Técnicas", "Logística" };
 string[] cursoConvencional = new string[] { "Administração", "Controle de Qualidade", "Planejamento" };
+cursos();
+
+
 void cursos()
 {
     Console.WriteLine($"O perfil que mais se encaixa é {newDict.First().Key}");
