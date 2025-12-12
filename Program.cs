@@ -2,95 +2,94 @@
 
 var dict = new Dictionary<string, int> { { "Realista", 0 }, { "Investigativo", 0 }, { "Artistico", 0 }, { "Social", 0 }, { "Empreendedor", 0 }, { "Convencional", 0 } };
 
-// Console.WriteLine("QUESTIONÁRIO RIASEC");
-// Console.WriteLine("Para cada item, marque o quanto você se identifica:");
-// Console.WriteLine("0 – Nada a ver; 1 – Pouco; 2 – Parcialmente; 3 – Bastante; 4 – Totalmente");
+Console.WriteLine("QUESTIONÁRIO RIASEC");
+Console.WriteLine("Para cada item, marque o quanto você se identifica:");
+Console.WriteLine("0 – Nada a ver; 1 – Pouco; 2 – Parcialmente; 3 – Bastante; 4 – Totalmente");
 
-// /* Realista */
-// Console.WriteLine("Gosto de trabalhar com ferramentas, máquinas ou objetos.");
-// adicionarDicionario("Realista");
+/* Realista */
+Console.WriteLine("Gosto de trabalhar com ferramentas, máquinas ou objetos.");
+adicionarDicionario("Realista");
 
-// Console.WriteLine("Prefiro atividades práticas a discussões teóricas.");
-// adicionarDicionario("Realista");
+Console.WriteLine("Prefiro atividades práticas a discussões teóricas.");
+adicionarDicionario("Realista");
 
-// Console.WriteLine("Gosto de consertar, montar ou construir coisas.");
-// adicionarDicionario("Realista");
+Console.WriteLine("Gosto de consertar, montar ou construir coisas.");
+adicionarDicionario("Realista");
 
-// Console.WriteLine("Prefiro ambientes organizados e tarefas manuais.");
-// adicionarDicionario("Realista");
+Console.WriteLine("Prefiro ambientes organizados e tarefas manuais.");
+adicionarDicionario("Realista");
 
-// /* Investigativo */
+/* Investigativo */
 
-// Console.WriteLine("Gosto de resolver problemas complexos.");
-// adicionarDicionario("Investigativo");
+Console.WriteLine("Gosto de resolver problemas complexos.");
+adicionarDicionario("Investigativo");
 
-// Console.WriteLine("Tenho interesse em ciência, pesquisa ou experimentos.");
-// adicionarDicionario("Investigativo");
+Console.WriteLine("Tenho interesse em ciência, pesquisa ou experimentos.");
+adicionarDicionario("Investigativo");
 
-// Console.WriteLine("Gosto de analisar informações e entender como as coisas funcionam.");
-// adicionarDicionario("Investigativo");
+Console.WriteLine("Gosto de analisar informações e entender como as coisas funcionam.");
+adicionarDicionario("Investigativo");
 
-// Console.WriteLine("Prefiro atividades que envolvam reflexão e lógica.");
-// adicionarDicionario("Investigativo");
+Console.WriteLine("Prefiro atividades que envolvam reflexão e lógica.");
+adicionarDicionario("Investigativo");
 
-// /* Artístico */
+/* Artístico */
 
-// Console.WriteLine("Gosto de criar, desenhar, inventar ou expressar ideias.");
-// adicionarDicionario("Artistico");
+Console.WriteLine("Gosto de criar, desenhar, inventar ou expressar ideias.");
+adicionarDicionario("Artistico");
 
-// Console.WriteLine("Prefiro atividades com liberdade e sem regras rígidas.");
-// adicionarDicionario("Artistico");
+Console.WriteLine("Prefiro atividades com liberdade e sem regras rígidas.");
+adicionarDicionario("Artistico");
 
-// Console.WriteLine("Gosto de música, artes visuais, escrita ou atuação.");
-// adicionarDicionario("Artistico");
+Console.WriteLine("Gosto de música, artes visuais, escrita ou atuação.");
+adicionarDicionario("Artistico");
 
-// Console.WriteLine("Sou imaginativo(a) e busco formas diferentes de fazer as coisas.");
-// adicionarDicionario("Artistico");
+Console.WriteLine("Sou imaginativo(a) e busco formas diferentes de fazer as coisas.");
+adicionarDicionario("Artistico");
 
-// /* Social */
+/* Social */
 
-// Console.WriteLine("Gosto de ajudar, orientar ou cuidar de pessoas.");
-// adicionarDicionario("Social");
+Console.WriteLine("Gosto de ajudar, orientar ou cuidar de pessoas.");
+adicionarDicionario("Social");
 
-// Console.WriteLine("Tenho facilidade para ouvir e compreender os outros.");
-// adicionarDicionario("Social");
+Console.WriteLine("Tenho facilidade para ouvir e compreender os outros.");
+adicionarDicionario("Social");
 
-// Console.WriteLine("Prefiro atividades que envolvem ensinar ou apoiar alguém.");
-// adicionarDicionario("Social");
+Console.WriteLine("Prefiro atividades que envolvem ensinar ou apoiar alguém.");
+adicionarDicionario("Social");
 
-// Console.WriteLine("Gosto de trabalhar em equipe e apoiar o bem-estar coletivo.");
-// adicionarDicionario("Social");
+Console.WriteLine("Gosto de trabalhar em equipe e apoiar o bem-estar coletivo.");
+adicionarDicionario("Social");
 
-// /* Empreendedor */
+/* Empreendedor */
 
-// Console.WriteLine("Gosto de liderar, convencer ou motivar pessoas.");
-// adicionarDicionario("Empreendedor");
+Console.WriteLine("Gosto de liderar, convencer ou motivar pessoas.");
+adicionarDicionario("Empreendedor");
 
-// Console.WriteLine("Tenho iniciativa e gosto de tomar decisões.");
-// adicionarDicionario("Empreendedor");
+Console.WriteLine("Tenho iniciativa e gosto de tomar decisões.");
+adicionarDicionario("Empreendedor");
 
-// Console.WriteLine("Prefiro desafios que envolvam resultados e metas.");
-// adicionarDicionario("Empreendedor");
+Console.WriteLine("Prefiro desafios que envolvam resultados e metas.");
+adicionarDicionario("Empreendedor");
 
-// Console.WriteLine("Gosto de criar projetos e colocar ideias em prática.");
-// adicionarDicionario("Empreendedor");
+Console.WriteLine("Gosto de criar projetos e colocar ideias em prática.");
+adicionarDicionario("Empreendedor");
 
-// /* Convencional */
+/* Convencional */
 
-// Console.WriteLine("Gosto de organizar, planejar e manter tudo em ordem.");
-// adicionarDicionario("Convencional");
+Console.WriteLine("Gosto de organizar, planejar e manter tudo em ordem.");
+adicionarDicionario("Convencional");
 
-// Console.WriteLine("Prefiro atividades com regras claras e rotina.");
-// adicionarDicionario("Convencional");
+Console.WriteLine("Prefiro atividades com regras claras e rotina.");
+adicionarDicionario("Convencional");
 
-// Console.WriteLine("Gosto de trabalhar com documentos, tabelas ou registros.");
-// adicionarDicionario("Convencional");
+Console.WriteLine("Gosto de trabalhar com documentos, tabelas ou registros.");
+adicionarDicionario("Convencional");
 
-// Console.WriteLine("Sou detalhista e cuidadoso(a) com informações.");
-// adicionarDicionario("Convencional");
+Console.WriteLine("Sou detalhista e cuidadoso(a) com informações.");
+adicionarDicionario("Convencional");
 
 
-raquer();
 var newDict = dict.OrderByDescending(kvp => kvp.Value).ToDictionary(kpv => kpv.Key, kpv => kpv.Value);
 
 foreach (KeyValuePair<string, int> par in newDict)
@@ -104,6 +103,7 @@ string[] cursoArtistico = new string[] { "Design de Produto", "Impressão 3D", "
 string[] cursoSocial = new string[] { "Segurança do Trabalho", "Educação", "Saúde Ocupacional" };
 string[] cursoEmpreendedor = new string[] { "Gestão", "Vendas Técnicas", "Logística" };
 string[] cursoConvencional = new string[] { "Administração", "Controle de Qualidade", "Planejamento" };
+
 cursos();
 
 
@@ -131,15 +131,20 @@ void cursos()
         contador++;
 
     }
-    Console.WriteLine($"O segundo perfil é {valorSegundo.Key}");
-    Console.WriteLine($"O terceiro perfil é {valorTerceiro.Key}");
     Console.WriteLine("Mostrando os curso para você: ");
+    Console.WriteLine("");
+
     Console.WriteLine($"o {newDict.First().Key} curso: ");
     testarCursos(newDict.First().Key);
-    Console.WriteLine($"o s curso: ");
+    Console.WriteLine("");
+
+    Console.WriteLine($"o {valorSegundo.Key} curso: ");
     testarCursos(valorSegundo.Key);
-    Console.WriteLine($"o primeiro curso: ");
+    Console.WriteLine("");
+    
+    Console.WriteLine($"o {valorTerceiro.Key} curso: ");
     testarCursos(valorTerceiro.Key);
+    Console.WriteLine("");
 
 }
 
